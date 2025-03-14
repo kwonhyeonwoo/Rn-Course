@@ -1,5 +1,6 @@
 import { Pressable, StyleSheet, Text,  } from 'react-native'
 import React from 'react'
+import Colors from '../utils/colors';
 
 const PrimaryButton = ({handleCustomPress,text}) => {
   return (
@@ -17,7 +18,7 @@ const { customPress, btnText } = StyleSheet.create({
     paddingVertical:2,
     paddingHorizontal:5,
     height:30,
-    backgroundColor:"#640233",
+    backgroundColor:Colors.primary600,
     borderRadius:6,
     justifyContent:"center",
     alignItems:"center",

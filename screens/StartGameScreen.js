@@ -1,6 +1,7 @@
 import { Alert, StyleSheet,  TextInput, View } from 'react-native'
 import React, { useState } from 'react'
 import PrimaryButton from '../components/PrimaryButton'
+import Colors from '../utils/colors';
 
 const StartGameScreen = ({ handleUserNumber }) => {
   const [enteredValue, setEnteredValue] = useState("");
@@ -64,7 +65,7 @@ const { startGameWrapper, btnContainer, textInput, card } = StyleSheet.create({
     paddingHorizontal: 20,
     borderRadius: 8,
     padding: 16,
-    backgroundColor: "#3b021f",
+    backgroundColor: Colors.primary800,
     justifyContent: "center",
     alignItems: "center",
   },
